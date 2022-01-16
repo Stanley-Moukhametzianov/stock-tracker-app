@@ -1,16 +1,19 @@
-# Markets React
+# Market Tracker App
 
-Ever want to check the stock market, but you just couldn't figure out how? Well look no further, this app has got you covered! Built with React Native, Expo, and NativeBase using data from EX API.
+* This app uses an API to get recent prices of stocks. 
+* Users can search for a certain stock, view the recent price data and add that stock to their favorites. 
+* By adding to favorite, users will be able to see the stock appear in the second tab. There they can quickly view the data instead of having to look up the stock again. 
+
+## :camera: Demo
+
 
 ![alt tag](assets/github/screenshot.png)
 
-## Getting Started
 
-First, head over to the [Expo installation guide](https://docs.expo.io/versions/latest/introduction/installation.html) to get your development environment set up.
+## :computer: How to deploy.
 
 ``` bash
-# clone repo
-git clone git@github.com:krestaino/stock-check.git
+# First clone the repo.
 
 # install dependencies
 yarn install
@@ -23,3 +26,11 @@ expo build:android
 # or
 expo build:ios
 ```
+
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
+## :envelope: Contact
+
+* Repo created by [Stanley Moukhametzianov](https://github.com/Stanley-Moukhametzianov?tab=repositories).
